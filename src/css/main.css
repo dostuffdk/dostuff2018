@@ -10,6 +10,8 @@ body {
 header {
     background-color: var(--secondary-bg-color);
     color: var(--secondary-text-color);
+    text-align: center;
+    padding: 1rem 0;
 
     & img {
         width: 200px;
