@@ -36,6 +36,11 @@ main {
         border-radius: 1rem;
         margin-bottom: 0.75rem;
         font-size: 0.8rem;
+        transition: color 0.3s;
+
+        &:hover {
+            color: black;
+        }
 
         & span {
             width: 2rem;
