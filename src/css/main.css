@@ -21,6 +21,8 @@ header {
 
 main {
     padding: 1rem;
+    max-width: 24rem;
+    margin: 0 auto;
 
     & ul {
         list-style: none;
