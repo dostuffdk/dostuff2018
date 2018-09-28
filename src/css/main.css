@@ -54,5 +54,6 @@ main {
         width: 18px;
         height: 18px;
         fill: #999;
+        margin-left: 0.25rem;
     }
 }
