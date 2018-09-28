@@ -10,4 +10,9 @@ body {
 header {
     background-color: var(--secondary-bg-color);
     color: var(--secondary-text-color);
+
+    & img {
+        width: 200px;
+        clip-path: circle(90px at center);
+    }
 }
