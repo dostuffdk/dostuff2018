@@ -18,3 +18,18 @@ header {
         clip-path: circle(90px at center);
     }
 }
+
+main {
+    padding: 1rem 0;
+
+    & a {
+        color: #777;
+        text-decoration: none;
+    }
+
+    & svg {
+        width: 18px;
+        height: 18px;
+        fill: #999;
+    }
+}
