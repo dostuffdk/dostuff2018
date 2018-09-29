@@ -21,6 +21,22 @@ header {
         width: 200px;
         clip-path: circle(90px at center);
     }
+
+    @media (min-width: 1024px) {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+
+        & img {
+            margin-right: 2rem;
+        }
+
+        & h1 {
+            font-size: 4rem;
+        }
+
+    }
 }
 
 main {
