@@ -13,6 +13,10 @@ header {
     text-align: center;
     padding: 1rem 0;
 
+    & h1 {
+        font-size: 2rem;
+    }
+
     & img {
         width: 200px;
         clip-path: circle(90px at center);
