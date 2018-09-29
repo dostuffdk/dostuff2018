@@ -38,10 +38,11 @@ main {
         border-radius: 1rem;
         margin-bottom: 0.75rem;
         font-size: 0.8rem;
-        transition: color 0.3s;
+        transition: color 0.25s, border 0.5s;
 
         &:hover {
             color: black;
+            border: 1px solid #777;
         }
 
         & span {
